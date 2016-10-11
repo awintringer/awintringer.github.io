@@ -1,6 +1,6 @@
 
 
-#top {
+#banner {
 		font-size: 50px;
 		text-align: center;
 		margin-top: 10px;
@@ -8,16 +8,29 @@
 		height: 95px;
 }
 
-section {
+#leftmenu {
+	background-image: url(pictures/leftmenu.png);
 	font: Arial; 
 	margin-left: 50px;
 	text-align: center;
 	color: blue;
-
 	width: 200px;
+	height: 200px;
+}
+
+#rightmenu {
+		width: 200px;
+		text-align: center;
+		margin-left: 50px;
 }
 
 section div:nth-child(odd) {
 	background-color: lightgrey;	
 	color: black;
+}
+
+footer {
+	background-image: url(pictures/footer.png);
+	width: 1000px;
+	height: 200px;
 }
