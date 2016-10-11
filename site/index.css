@@ -1,5 +1,11 @@
 
-
+body {
+	width: 1100px;
+	margin: auto;
+	width: 75%;
+	max-width: 1000px;
+    border: 3px solid green;
+}
 #banner {
 		font-size: 50px;
 		text-align: center;
@@ -31,6 +37,5 @@ section div:nth-child(odd) {
 
 footer {
 	background-image: url(pictures/footer.png);
-	width: 1000px;
 	height: 200px;
 }
