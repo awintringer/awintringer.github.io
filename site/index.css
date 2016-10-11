@@ -1,7 +1,23 @@
 
 
-body {
-	color: red;
-	font-size: 50px;
-	width: 500px;
+#top {
+		font-size: 50px;
+		text-align: center;
+		margin-top: 10px;
+		background-image: url(pictures/banner.png);
+		height: 95px;
+}
+
+section {
+	font: Arial; 
+	margin-left: 50px;
+	text-align: center;
+	color: blue;
+
+	width: 200px;
+}
+
+section div:nth-child(odd) {
+	background-color: lightgrey;	
+	color: black;
 }
