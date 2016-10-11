@@ -7,6 +7,22 @@ body {
 	min-width: 700px;
     border: 3px solid green;
 }
+
+#tabs {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 500px;
+
+}
+
+#tabs > span {
+	border: 3px solid green;
+	text-indent:center;
+}
+
+
 #banner {
 		font-size: 50px;
 		text-align: center;
@@ -16,22 +32,35 @@ body {
 }
 
 #leftmenu {
-
-	border: 1px solid green;
+	float: left;
+	border: 3px solid green;
+	border-left:none;
 	background-image: url(pictures/leftmenu.png);
 	font: Arial; 
 	text-align: center;
 	color: blue;
 	width: 200px;
-	height: 200px;
+	height: 400px;
 }
 
 #rightmenu {
 		float: right;
-		border: 1px solid green;
+		border: 3px solid green;
+		border-right: none;
 		width: 200px;
 		text-align: center;
 		margin-left: 50px;
+}
+
+#rightmenu > div {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border: 1px solid green;
+}
+
+#main {
+	height: 400px;
+	margin-left: 5px;
 }
 
 section div:nth-child(odd) {
@@ -40,7 +69,7 @@ section div:nth-child(odd) {
 }
 
 footer {
-	float: bot;
+
 	background-image: url(pictures/footer.png);
 	height: 200px;
 }
