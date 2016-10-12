@@ -46,6 +46,7 @@ body {
 	float: left;
 	border: 3px solid green;
 	border-left:none;
+	border-right: none;
 	background-image: url(pictures/leftmenu.png);
 	text-align: center;
 	color: blue;
@@ -63,7 +64,10 @@ body {
 }
 
 #main {
-	margin-left: 210px;
+	padding: 5px;
+	border: 3px solid green;
+	margin-right: 200px;
+	margin-left: 200px;
 	min-height: 600px;
 }
 
@@ -72,6 +76,7 @@ body {
 		float: right;
 		border: 3px solid green;
 		border-right: none;
+		border-left: none;
 		width: 200px;
 		text-align: center;
 		margin-left: 10px;
