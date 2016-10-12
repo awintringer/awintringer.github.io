@@ -13,6 +13,7 @@ body {
 }
 
 #banner {
+		padding: 15px;
 		text-transform: uppercase;
 		background-color: white;
 		font-size: 50px;
@@ -25,16 +26,17 @@ body {
 
 
 #tabs {
-
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	width: 600px;
+	width: 630px;
 
 }
 
 #tabs > span {
+	font-weight: bold;
+	padding: 5px;
 	margin-left: 3px;
 	margin-right: 3px;
 	border: 3px solid green;
@@ -57,10 +59,12 @@ body {
 
 
 #rightmenu > div {
+	padding: 15px;
 	margin-top: 3px;
 	margin-bottom: 3px;
 	height: 50px;
 	border: 1px solid green;
+	font-weight: bold;
 }
 
 #main {
@@ -80,6 +84,7 @@ body {
 		width: 200px;
 		text-align: center;
 		margin-left: 10px;
+		text-transform: capitalize;
 }
 
 section div:nth-child(odd) {
