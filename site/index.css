@@ -72,7 +72,9 @@ body {
 	border: 3px solid green;
 	margin-right: 200px;
 	margin-left: 200px;
-	min-height: 600px;
+	height: 600px;
+	overflow: auto;
+
 }
 
 #rightmenu {
