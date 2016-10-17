@@ -15,12 +15,11 @@ body {
 #banner {
 		padding: 15px;
 		text-transform: uppercase;
-
 		font-size: 50px;
 		font-weight: bold;
 		text-align: center;
 		margin-top: 10px;
-		background-image: url(pictures/banner.png);
+		background-image: url(../pictures/banner.png);
 		height: 95px;
 }
 
@@ -30,26 +29,34 @@ body {
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	width: 630px;
+	width: 565px;
 
 }
 
-#tabs > span {
-	font-weight: bold;
-	padding: 5px;
-	margin-left: 3px;
-	margin-right: 3px;
-	border: 3px solid green;
+#tabs > a {
+
+	text-decoration:none;
+	color: white;
+	padding: 8px;
+	background-color: #ff3333;
 	text-indent:center;
+}
+
+#tabs > a:hover {
+	background-color: #ff0000;
+}
+
+#tabs > a:visited {
+	color: lightgrey;
 }
 
 
 #leftmenu {
 	float: left;
-	border: 3px solid green;
+	border: 3px solid red;
 	border-left:none;
 	border-right: none;
-	background-image: url(pictures/leftmenu.png);
+	background-image: url(../pictures/leftmenu.png);
 	text-align: center;
 	color: blue;
 	width: 200px;
@@ -63,46 +70,42 @@ body {
 	top:146px;
 	right: 5px;
 	padding: 5px;
-	border: 3px solid green;
+	border: 3px solid red;
 	border-right: none;
 	border-left: none;
 	text-align: center;
-	margin-left: 1000px;
 	text-transform: capitalize;
 }
 
-#rightmenu > div {
+#rightmenu > a {
+	text-decoration: none;
+}
+
+#rightmenu > a > div {
+	background-color: #ff4d4d;
 	padding: 15px;
 	margin-top: 3px;
 	margin-bottom: 3px;
 	height: 50px;
-	border: 1px solid green;
-	font-weight: bold;
+	border: 1px solid red;
+	color:white;
+}
+
+#rightmenu > a :hover {
+	background-color: #ff3333;
 }
 
 #main {
 	padding: 5px;
-	border: 3px solid green;
+	border: 3px solid red;
 	margin-right: 200px;
 	margin-left: 200px;
+	min-height: 700px
 
-}
-
-
-
-#rightmenu div:nth-child(odd) {
-	background-color: lightgrey;	
-	color: black;
-}
-
-
-#rightmenu div:nth-child(even) {
-	background-color: grey;	
-	color: black;
 }
 
 footer {
 	clear: both;
-	background-image: url(pictures/footer.png);
+	background-image: url(../pictures/footer.png);
 	height: 200px;
 }
