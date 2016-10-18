@@ -117,7 +117,14 @@ footer {
 
 @media (max-width: 1000px) {
 
+	#banner {
+		font-size: 90px;
+		margin: 0;
+		padding: 0;
+	}
+
 	#main {
+		font-size: 130%;
 		margin: 0;
 		width: 70%;
 		position: absolute;
@@ -135,6 +142,7 @@ footer {
 
 	#rightmenu > a > div {
 		height: 80px;
+		font-size: 130%;
 	}
 
 	#tabs {
@@ -142,7 +150,7 @@ footer {
 	}
 
 	#tabs > a {
-		font-size: 130%;
+		font-size: 150%;
 	}
 
 	footer {
