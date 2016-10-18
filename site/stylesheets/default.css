@@ -1,4 +1,7 @@
 
+/***************** Base design *********************/
+
+
 body {
 	background-color: #ffb3b3;
 	margin: auto;
@@ -107,4 +110,43 @@ footer {
 	clear: both;
 	background-image: url(../pictures/footer.png);
 	height: 200px;
+}
+
+
+/************************ Mobile ****************************/
+
+@media (max-width: 1000px) {
+
+	#main {
+		margin: 0;
+		width: 70%;
+		position: absolute;
+	}
+
+	#leftmenu {
+		width: 0%;
+		position: absolute;
+	}
+
+	#rightmenu {
+		width: 30%;
+		position: absolute;
+	}
+
+	#rightmenu > a > div {
+		height: 80px;
+	}
+
+	#tabs {
+		width: 100%
+	}
+
+	#tabs > a {
+		font-size: 130%;
+	}
+
+	footer {
+		position: absolute;
+	}
+
 }
