@@ -98,6 +98,7 @@ body {
 }
 
 #main {
+	background-image: url(../pictures/main.png);
 	padding: 5px;
 	border: 3px solid red;
 	margin-right: 200px;
@@ -124,7 +125,7 @@ footer {
 	}
 
 	#main {
-		font-size: 130%;
+		font-size: 160%;
 		margin: 0;
 		width: 70%;
 		position: absolute;
@@ -138,19 +139,20 @@ footer {
 	#rightmenu {
 		width: 30%;
 		position: absolute;
+		border: none;
 	}
 
 	#rightmenu > a > div {
 		height: 80px;
-		font-size: 130%;
+		font-size: 170%;
 	}
 
 	#tabs {
-		width: 100%
+		width: 100%;
 	}
 
 	#tabs > a {
-		font-size: 150%;
+		font-size: 170%;
 	}
 
 	footer {
