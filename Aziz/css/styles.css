@@ -23,6 +23,12 @@ body {
 
 }
 
+.sub-img {
+	width: 150px;
+	height: 150px;
+	background-color: #000;
+}
+
 .navbar-brand {
 	padding-top: 25px;
 }
@@ -60,20 +66,152 @@ body {
 
 #nav-list {
 	color:white;
-	border: 1px solid black;
-	border-left:none;
 }
+
+
 #nav-list a {
-	color:black;
+	color:white;
 	padding-right: 30px;
 	padding-left: 30px;
-	border: 1px solid black;
-	border-right: none;
-	border-top: none;
-	border-bottom: none;
+	text-shadow: 1px 1px 1px #000;
 
 }
+
 #nav-list a:hover {
-
-	color:#705B38;
+	background-color:#F0A830;
 }
+
+#nav-list .active-nav {
+	background-color:#F0A830;
+	color:black;
+	text-shadow: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #704F16;
+	}
+
+.navbar-header button.navbar-toggle {
+	clear:both;
+}
+
+.row {
+	color:black;
+}
+
+.jumbotron {
+	box-shadow: 0 0 50px #704F16;
+	background-color: #F2C579
+}
+
+.row p {
+	margin-top: 15px;
+}
+
+.sub-img {
+	width: 200px;
+	height: 200px;
+	background-color: #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/********** MEDIA QUERIES ***************/
+
+/********** Large only **************/
+
+@media (min-width: 1200px){
+
+}
+
+
+/********** Medium only **************/
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+	#sub3 {
+		float: left;
+	}
+
+	#p3 {
+		margin-left: 160px;
+	}
+
+	#col3 {
+		margin-top: 30px;
+	}
+}
+
+/********** small only ***************/
+
+@media (min-width: 768px) and (max-width: 991px){
+	
+	.navbar-brand h1 {
+		font-size: 1em;
+	}
+
+	#nav-list {
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	#logo-img{
+	width: 200px;
+	height: 150px;
+	margin: 10px 15px 10px 15px;
+	border: 1px solid black;
+
+	}
+
+	.sub-img {
+		float:left;
+	}
+
+
+}
+
+/*********** xs only ***************/
+
+@media (max-width: 767px){
+
+	.navbar-brand h1 {
+		font-size: 5vw;
+	}
+	#header-nav {
+		min-height: 175px;
+	}
+	.navbar-brand p {
+		margin-top: 10px;
+
+	}
+
+	#nav-list a {
+		font-size: 3vw;
+		text-align: center;
+	}
+
+	#collapsable-nav a span {
+		margin-right: 5px;
+	}
+
+	.sub-img {
+		float:left;
+		margin-left: 15px;
+		height: 120px;
+		width: 120px;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	#p1, #p2, #p3 {
+		margin-left: 160px;
+	}
+
+	#col1, #col2, #col3 {
+		position: relative;
+	}
+}
+
