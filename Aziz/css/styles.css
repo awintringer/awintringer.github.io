@@ -18,8 +18,6 @@ body {
 #banner {
 	margin: 10px 15px 10px 15px;
 	border: 1px solid black;
-	background-image: url(/pictures/banner.png);
-
 }
 
 
@@ -112,15 +110,15 @@ body {
 	box-shadow: 0 0 25px black;
 }
 
-#sub1 {
+	#sub1 {
 	background-image: url(../pictures/sub_img_lg_1.png);
 }
 
-#sub2 {
+	#sub2 {
 	background-image: url(../pictures/sub_img_lg_2.png);
 }
 	
-#sub3 {
+	#sub3 {
 	background-image: url(../pictures/map.png);
 }
 
@@ -138,7 +136,7 @@ body {
 	#banner {
 		width: 450px;
 		height: 200px;
-		background-image: url(/pictures/banner.png);
+		background-image: url(../pictures/banner.png);
 	}
 }
 
@@ -214,15 +212,15 @@ body {
 }
 
 	#sub1 {
-		background-image: url(/pictures/sub_img_sm_1.png);
+		background-image: url(../pictures/sub_img_sm_1.png);
 }
 
 	#sub2 {
-		background-image: url(/pictures/sub_img_sm_2.png);
+		background-image: url(../pictures/sub_img_sm_2.png);
 }
 	
 	#sub3 {
-		background-image: url(/pictures/map_sm.png);
+		background-image: url(../pictures/map_sm.png);
 }
 
 
