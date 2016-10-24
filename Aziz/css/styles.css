@@ -15,22 +15,18 @@ body {
 	border:0;
 }
 
-#logo-img {
-	width: 400px;
-	height: 150px;
+#banner {
 	margin: 10px 15px 10px 15px;
 	border: 1px solid black;
+	background-image: url(/pictures/banner.png);
 
 }
 
-.sub-img {
-	width: 150px;
-	height: 150px;
-	background-color: #000;
-}
+
+
 
 .navbar-brand {
-	padding-top: 25px;
+	padding-top: 50px;
 }
 
 .navbar-brand h1 {
@@ -109,11 +105,23 @@ body {
 }
 
 .sub-img {
-	width: 200px;
-	height: 200px;
-	background-color: #000;
+	width: 250px;
+	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 0 0 25px black;
+}
+
+#sub1 {
+	background-image: url(/pictures/sub_img_lg_1.png);
+}
+
+#sub2 {
+	background-image: url(/pictures/sub_img_lg_2.png);
+}
+	
+#sub3 {
+	background-image: url(/pictures/map.png);
 }
 
 	#p1, #p2, #p3 {
@@ -127,13 +135,26 @@ body {
 /********** Large only **************/
 
 @media (min-width: 1200px){
-
+	#banner {
+		width: 450px;
+		height: 200px;
+		background-image: url(/pictures/banner.png);
+	}
 }
 
 
 /********** Medium only **************/
 
 @media (min-width: 992px) and (max-width: 1199px){
+
+	#banner{
+		width: 400px;
+		height: 200px;
+	}
+
+	.navbar-brand {
+		padding-top: 50px;
+}
 
 	#sub3 {
 		float: left;
@@ -148,6 +169,11 @@ body {
 
 	#col3 {
 		margin-top: 30px;
+	}
+
+	#logo-img {
+		width: 400px;
+		height: 250px;
 	}
 }
 
@@ -164,12 +190,9 @@ body {
 		margin-top: 15px;
 	}
 
-	#logo-img{
-		width: 200px;
+	#banner{
+		width: 300px;
 		height: 150px;
-		margin: 10px 15px 10px 15px;
-		border: 1px solid black;
-
 	}
 
 	#p1, #p2, #p3 {
@@ -186,6 +209,21 @@ body {
 		transform: translateY(-50%);
 	}
 
+	.navbar-brand {
+		padding-top: 25px;
+}
+
+	#sub1 {
+		background-image: url(/pictures/sub_img_sm_1.png);
+}
+
+	#sub2 {
+		background-image: url(/pictures/sub_img_sm_2.png);
+}
+	
+	#sub3 {
+		background-image: url(/pictures/map_sm.png);
+}
 
 
 
@@ -221,17 +259,26 @@ body {
 		float:left;
 		margin-left: 15px;
 		height: 120px;
-		width: 100px;
+		width: 120px;
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
 	}
 
 	#p1, #p2, #p3 {
-		margin-left: 125px;
+		margin-left: 145px;
 		font-size: 0.8em;
 		margin-top: 0px;
 	}
+
+	#p2, #p3 {
+		margin-top: 13vw;
+	}
+
+	#p1 {
+		margin-top: 5vw;
+	}
+
 
 	#tel-xs {
 		border-radius: 10px;
