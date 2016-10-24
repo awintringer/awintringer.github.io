@@ -18,6 +18,7 @@ body {
 #banner {
 	margin: 10px 15px 10px 15px;
 	border: 1px solid black;
+	background-image: url(../pictures/banner.png);
 }
 
 
@@ -110,17 +111,6 @@ body {
 	box-shadow: 0 0 25px black;
 }
 
-	#sub1 {
-	background-image: url(../pictures/sub_img_lg_1.png);
-}
-
-	#sub2 {
-	background-image: url(../pictures/sub_img_lg_2.png);
-}
-	
-	#sub3 {
-	background-image: url(../pictures/map.png);
-}
 
 	#p1, #p2, #p3 {
 		text-align:center;
@@ -136,8 +126,23 @@ body {
 	#banner {
 		width: 450px;
 		height: 200px;
-		background-image: url(../pictures/banner.png);
 	}
+
+	.navbar-brand {
+			padding-left: 100px;
+	}
+
+		#sub1 {
+	background-image: url(../pictures/sub_img_lg_1.png);
+}
+
+	#sub2 {
+	background-image: url(../pictures/sub_img_lg_2.png);
+}
+	
+	#sub3 {
+	background-image: url(../pictures/map.png);
+}
 }
 
 
@@ -173,6 +178,18 @@ body {
 		width: 400px;
 		height: 250px;
 	}
+
+		#sub1 {
+	background-image: url(../pictures/sub_img_lg_1.png);
+}
+
+	#sub2 {
+	background-image: url(../pictures/sub_img_lg_2.png);
+}
+	
+	#sub3 {
+	background-image: url(../pictures/map.png);
+}
 }
 
 /********** small only ***************/
@@ -298,6 +315,18 @@ body {
 		color: #222;
 		text-shadow: 2px 2px 2px #fff;
 	}
+
+		#sub1 {
+		background-image: url(../pictures/sub_img_xs_1.png);
+}
+
+	#sub2 {
+		background-image: url(../pictures/sub_img_xs_2.png);
+}
+	
+	#sub3 {
+		background-image: url(../pictures/map_xs.png);
+}
 
 }
 
