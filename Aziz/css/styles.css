@@ -113,15 +113,15 @@ body {
 }
 
 #sub1 {
-	background-image: url(/pictures/sub_img_lg_1.png);
+	background-image: url(../pictures/sub_img_lg_1.png);
 }
 
 #sub2 {
-	background-image: url(/pictures/sub_img_lg_2.png);
+	background-image: url(../pictures/sub_img_lg_2.png);
 }
 	
 #sub3 {
-	background-image: url(/pictures/map.png);
+	background-image: url(../pictures/map.png);
 }
 
 	#p1, #p2, #p3 {
