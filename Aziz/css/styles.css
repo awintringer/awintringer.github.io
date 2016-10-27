@@ -109,12 +109,32 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 0 0 25px black;
+	position:relative;
 }
 
+
+
+.sub-img:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.sub-img span {
+	color:white;
+	position:absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align:center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color:#000;
+	opacity: .8;
+}
 
 	#p1, #p2, #p3 {
 		text-align:center;
 	}
+
 
 
 
@@ -132,16 +152,12 @@ body {
 			padding-left: 100px;
 	}
 
-		#sub1 {
+	#sub1 {
 	background-image: url(../pictures/sub_img_lg_1.png);
 }
 
 	#sub2 {
 	background-image: url(../pictures/sub_img_lg_2.png);
-}
-	
-	#sub3 {
-	background-image: url(../pictures/map.png);
 }
 }
 
@@ -179,17 +195,14 @@ body {
 		height: 250px;
 	}
 
-		#sub1 {
+	#sub1 {
 	background-image: url(../pictures/sub_img_lg_1.png);
 }
 
 	#sub2 {
 	background-image: url(../pictures/sub_img_lg_2.png);
 }
-	
-	#sub3 {
-	background-image: url(../pictures/map.png);
-}
+
 }
 
 /********** small only ***************/
@@ -219,9 +232,7 @@ body {
 		margin-left: 15px;
 		height: 150px;
 		width: 150px;
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
+
 	}
 
 	.navbar-brand {
@@ -235,10 +246,12 @@ body {
 	#sub2 {
 		background-image: url(../pictures/sub_img_sm_2.png);
 }
+	#sub3{
+		width: 95%;
+		height: 350px;
+		margin-top: 10px;
+	}
 	
-	#sub3 {
-		background-image: url(../pictures/map_sm.png);
-}
 
 
 
@@ -256,7 +269,7 @@ body {
 		min-height: 175px;
 	}
 	.navbar-brand p {
-		margin-top: 10px;
+		margin-top: -10px;
 
 	}
 
@@ -275,20 +288,17 @@ body {
 		margin-left: 15px;
 		height: 120px;
 		width: 120px;
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
 	}
 
 	#p1, #p2, #p3 {
 		margin-left: 145px;
-		font-size: 0.8em;
+		font-size: 3.2vw;
 		margin-top: 0px;
 	}
 
-	#p2, #p3 {
-		margin-top: 13vw;
-	}
+	#p2 {
+		margin-top: 30vw;
+	} 
 
 	#p1 {
 		margin-top: 5vw;
@@ -324,9 +334,15 @@ body {
 		background-image: url(../pictures/sub_img_xs_2.png);
 }
 	
-	#sub3 {
-		background-image: url(../pictures/map_xs.png);
-}
+	#sub3{
+		width: 95%;
+		height: 50vw;
+		margin-top: 50px;
+	}
 
+	.map-id {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
 }
 
