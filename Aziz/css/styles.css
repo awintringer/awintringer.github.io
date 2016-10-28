@@ -21,11 +21,11 @@ body {
 	background-image: url(../pictures/banner.png);
 }
 
-	#sub1 {
+	#sub2 {
 	background-image: url(../pictures/sub_img_lg_1.png);
 }
 
-	#sub2 {
+	#sub1 {
 	background-image: url(../pictures/sub_img_lg_2.png);
 }
 
@@ -115,6 +115,11 @@ body {
 	margin-top: -20px;
 	margin-bottom: 10px;
 	width:100%;
+}
+
+#subtitle {
+	text-align: center;
+	font-size: 1.3em;
 }
 
 .row p {
@@ -213,11 +218,11 @@ body {
 			padding-left: 100px;
 	}
 
-	#sub1 {
+	#sub2 {
 	background-image: url(../pictures/sub_img_lg_1.png);
 }
 
-	#sub2 {
+	#sub1 {
 	background-image: url(../pictures/sub_img_lg_2.png);
 }
 }
